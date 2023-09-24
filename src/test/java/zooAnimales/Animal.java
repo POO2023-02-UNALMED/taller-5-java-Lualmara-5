@@ -16,3 +16,12 @@ public class Animal {
 	public Animal() {
 		this(null,0,null,null);
 	}
+	
+	public Animal( String nombre, int edad, String habitat, String genero) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.habitat = habitat;
+		this.genero = genero;
+		totalAnimales++;
+	}
+}
