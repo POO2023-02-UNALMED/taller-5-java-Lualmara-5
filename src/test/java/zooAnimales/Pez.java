@@ -1,4 +1,4 @@
-package test;
+package zooAnimales;
 
 public class Pez {
 
